@@ -1,0 +1,77 @@
+Entidade: 
+- Aluno
+
+Atributos:
+- ID matricula
+- Nome
+- Idade
+- CPF
+- Email
+- Contato
+- Endereço
+- Modalidade
+- Exercicios 
+- Plano
+- Aulas
+- Horário
+
+Entidade:
+- Personal
+
+Atributos:
+- ID contrato
+- Nome
+- Data_de_nascimento
+- CPF
+- Email
+- Modalidade
+- Obrigações
+- Turno
+
+Entidade:
+- Modalidade
+
+Atributos:
+- ID Modalidade
+- Natação
+- Balé
+- Judô
+- Jiu Jitsu 
+- Boxe
+- Pilates
+- Funcional
+- Musculação
+- Karatê 
+- Taekwondo
+- Yoga
+
+ Entidade: 
+- Sala
+
+Atributos:
+- ID sala
+- Modalidade
+
+ Entidade: 
+- Plano
+
+Atributos:
+- ID plano
+- Valor
+- Mensal
+- Trimestral
+- Semestral
+- Bimestral
+- Anual
+
+
+
+
+
+
+
+
+
+
+
+
