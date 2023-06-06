@@ -1,0 +1,11 @@
+create table alunos( codigo int NOT NULL AUTO_INCREMENT, nome VARCHAR(20) NOT NULL, telefone CHAR(8) NOT NULL, PRIMARY KEY(codigo));
+
+use alunos;
+desc alunos;
+select* from alunos where codigo = 3;
+INSERT INTO empresa(id_funcionario, nome, cpf, departamento, cpf_supervisor, salario) VALUES ('12345', 'Sara Chagas', '01234567890', 'Lojista', '02234567890','1200');
+
+
+INSERT INTO funcionarios(nome, cpf, departamento, cpf_supervisor, salario) VALUES ('Vinicius Morais', '56474567865', '5', '45678902134', '34234');
+
+update funcionarios set salario = 7500 where id_funcionario = 3;
