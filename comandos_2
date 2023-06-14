@@ -1,0 +1,30 @@
+show databases;
+creat databases turmaC;
+use turmaC --> usar a data base turma c
+create table alunos(
+codigo int not null auto_increment,
+nome varchar(20) not null,
+telefone char(9) not null,
+primary key(codigo));
+DESC ALUNOS;--> ver a tabela criada
+show tables---> mostrar tabela
+
+<add.inf table>
+
+insert into alunos (nome,telefone)
+values ('wilson araujo','981509045');
+
+select* from alunos;
+select* from alunos where codigo =1;  --> consultar
+
+update funcionarios set salario = 7500.00 where id_funcionario = 3; ----> alterar inf tabela.
+
+update funcionarios set departamento = 5 where departamento = 3; ---> mudar tudo de uma mesma medida
+
+update funcionarios set departamento = 5 where departamento = 3;
+alter table alunos modify nome varchar(120) not null;--> alterar um atributo da tabela;
+alter table alunos add status char(1) not null;--> adicionar atributo
+update alunos set status = 'a';--> adicionar informaçoes na coluna
+delete from alunos where matricula =5;---> apagar linha da tabela
+alter table alunos rename column emial to email;-----> renomar
+alter table alunos drop column email;----> apagar coluna da tabela
